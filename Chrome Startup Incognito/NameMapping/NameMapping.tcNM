@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root Signature="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" NameMappingVersion="7" SaveImages="0">
+	<Storages Current="0">
+		<Child Name="Default Configuration" />
+	</Storages>
+	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Children>
+			<Child Name="Sys" Key="{0953CC5C-E9E2-44EA-AD86-641C921FC7FC}">
+				<TypeInfo Item0="{FC5D6D51-F2DA-41FD-9F2C-6B363AEEF2BE}" />
+				<Properties>
+					<Property Name="Name">
+						<Value Value="Sys" />
+					</Property>
+				</Properties>
+				<Children>
+					<Child Name="cmd" Key="{14338179-C269-478B-8A31-FB6367DAF276}">
+						<TypeInfo Item0="{E2E7EB2F-6495-4838-B9E8-FE1F129F3BF3}" />
+						<Properties>
+							<Property Name="ProcessName">
+								<Value Value="cmd" />
+							</Property>
+							<Property Name="Index">
+								<Value Value="2" Type="0" />
+							</Property>
+						</Properties>
+					</Child>
+					<Child Name="WindowsTerminal" Key="{903B902D-95BA-4826-92E7-F5DAB5EDE352}">
+						<TypeInfo Item0="{E2E7EB2F-6495-4838-B9E8-FE1F129F3BF3}" />
+						<Properties>
+							<Property Name="ProcessName">
+								<Value Value="WindowsTerminal" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="wndCASCADIA_HOSTING_WINDOW_CLASS" Key="{1BDE0D90-DF60-4B17-964F-A86C0C6464C8}" ExtendedFind="True">
+								<Image FileName="-140428037" Left="0" Top="0" Right="1752" Bottom="936" />
+								<TypeInfo Item0="{C2BE8740-0BE6-47D9-8EBF-20EF74797E41}" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="CASCADIA_HOSTING_WINDOW_CLASS" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="Command Prompt" />
+									</Property>
+								</Properties>
+							</Child>
+						</Children>
+					</Child>
+				</Children>
+			</Child>
+		</Children>
+	</Nodes>
+	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Child Name="cmd" Owner="{14338179-C269-478B-8A31-FB6367DAF276}" />
+		<Child Name="WindowsTerminal" Owner="{903B902D-95BA-4826-92E7-F5DAB5EDE352}">
+			<Child Name="CommandPrompt" Owner="{1BDE0D90-DF60-4B17-964F-A86C0C6464C8}" />
+		</Child>
+	</LogicalNodes>
+</Root>

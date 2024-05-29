@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{24B6FA0B-0143-461A-9758-AEB9E9A9428B}" version="15.0" key="{C1811516-D3F2-4087-9CB1-B2357E567EBE}">
+	<children>
+		<child name="Chrome Startup Incognito" key="{D963725B-3893-48E6-BF44-8D52A711F575}" path="Chrome Startup Incognito\Chrome Startup Incognito.mds" />
+	</children>
+	<testItems key="{23247F63-C8B7-4EC9-AB77-DDC021708A60}">
+		<children>
+			<testItem key="{D963725B-3893-48E6-BF44-8D52A711F575}" enabled="True" timeout="0" stopOnError="True" description="" />
+		</children>
+	</testItems>
+	<variables key="{8E82BE24-C599-4DD3-B66E-85F26E249FF3}" />
+	<analysis key="{D1A0A9B7-9155-4C02-9020-057C24150B07}" />
+	<scc key="{C900492B-D218-429C-9AA0-264B7D78CA88}" name="Git Plugin">
+		<data />
+	</scc>
+</Root>
